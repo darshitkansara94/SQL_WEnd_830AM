@@ -57,5 +57,23 @@ CRUD operation :
 				Select Student_Id,Student_Name from tbl_StudentMaster
 
 
-		Update
-		Delete
+		Update :
+			We can modify existing record in table.
+
+			-- Syntax :
+				Update tbl_name set 
+					Column_name = 'new_value',column_name = 'new_value'
+
+			-- Example :
+				Update tbl_StudentMaster set
+					Student_Name = 'Abc'
+		Delete :
+			Remove data from existing table.
+			Once data is removed then we can not recover that data.
+			Delete without condition remove all the data from table.
+
+			-- Syntax :
+				Delete from tbl_name
+
+			-- Example :
+				Delete from tbl_StudentMaster
