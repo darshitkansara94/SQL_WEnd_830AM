@@ -1,0 +1,6 @@
+Alter procedure sp_SelectStudentDetail
+As
+Begin
+	Select StudentDetail_Id,StudentDetail_Subject,StudentDetail_Standard,
+	StudentDetail_Marks from tbl_StudentDetail
+End

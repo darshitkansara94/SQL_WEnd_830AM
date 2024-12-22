@@ -129,6 +129,24 @@ Conditions :
 					Print('Invalid data')
 				End
 
+				-- Nested condition
+				If (5 > 0)
+				Begin
+					If(4 < 0)
+					Begin
+						Print ('4 is greater than 0')
+					End
+					Else
+					Begin
+						Print ('4 is not greater than 0')
+					End
 
-		Case Condition
+					print('5 is greater than 0')
+				End
+				Else
+				Begin
+					Print('Else condition')
+				End
+
+		
 
