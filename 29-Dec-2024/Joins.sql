@@ -87,7 +87,6 @@ Joins :
 					Right join tbl_StudentDetail
 					on tbl_StudentDetail.Student_Id = tbl_StudentMaster.Student_Id 
 
-		-- Self Join :
-			
-		-- Cross Join
+		
+				
 	
